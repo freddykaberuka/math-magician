@@ -11,18 +11,19 @@ const Calculator = () => {
   });
 
   const handleEvent = (e) => {
-    setData(({ calcInputs }) => ({
-      calcInputs: calculate(calcInputs, e.target.value),
-    }));
+    setData(({ calcInputs }) => ({ calcInputs: calculate(calcInputs, e.target.value) }));
   };
-
+  const { total, next, operation } = data.calcInputs;
   return (
     <div className="main-calculator">
+      <div>
+        <p>Lets do some math!</p>
+      </div>
       <div className="calculator-wrap">
         <div className="calculator-result">
-          {data.total || ''}
-          {data.operation || ''}
-          {data.next || ''}
+          {total || ''}
+          {operation || ''}
+          {next || ''}
         </div>
         <div className="operation-container">
           <div className="calculator-upper">
