@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for rendering the navigation It should render the navigation header bar 1`] = `
+<div
+  className="header"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <nav
+    style={
+      Object {
+        "fontSize": "32px",
+        "padding": "40px",
+        "textDecoration": "none",
+      }
+    }
+  >
+    <a
+      href="#/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+     
+    |
+    <a
+      href="#/calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+     
+    |
+    <a
+      href="#/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </nav>
+</div>
+`;
