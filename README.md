@@ -1,4 +1,4 @@
-# Math Magician
+# Math Magicians
 
 "Math magicians" is a website solve mathematics calculation.
 
